@@ -1,21 +1,36 @@
 div#wrap{
-    width: 600px;
+    width: 613px;
     margin: auto;
 }
 div#header{
     height: 50px;
     background: black;
+    color: rgb(251, 255, 5);
+    border: solid; color: fuchsia;
+    
 }
 div#main{
     margin-top: 10px;
 }
 div#left_main{
-    height: 300px; width: 100px; background: gray;
-    margin-right: 10px; float:left;
+    height: 300px; 
+    width: 100px; 
+    background: gray;
+    margin-right: 10px; 
+    float:left;
+    border: solid; color: darkorchid;
 }
 div#right_main{
-   height: 300px; width: 490px; background: gray; float: left;
+   height: 300px; 
+   width: 490px; 
+   background: gray; 
+   float: left;
+   border: solid; color: darkorchid;
 }
 div#footer{
-    height: 50px; margin-top: 10px; background: black;
+    height: 50px; 
+    margin-top: 10px; 
+    background: black;
+    color: cornflowerblue;
+    border: solid; color: rgb(31, 34, 185);
 }
