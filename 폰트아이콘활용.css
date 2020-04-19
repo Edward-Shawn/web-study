@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menubar{
+    background: royalblue;
+    height: 80px;
+}
+ul{
+    float: right;
+    
+}
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    
+}
+
+ul li a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    
+    padding: 10px 20px;
+}
+ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 8px;
+}
+
+.bb{
+    font-size: 30px;
+    margin-right: 30px;
+    float: right;
+    line-height: 80px;
+    color: rgb(230, 230, 230);
+}
+.bb:hover{
+    color: white;
+}
