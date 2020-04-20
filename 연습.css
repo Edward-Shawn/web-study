@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(116, 112, 112);
+}
+.menu{
+    background: rgb(36, 35, 33);
+    height: 80px;
+}
+ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    line-height: 78px;
+    margin-right: 60px;
+    
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.logo {
+    color: white;
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+    padding: 23px 80px;
+    
+}
