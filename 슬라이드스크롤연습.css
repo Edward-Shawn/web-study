@@ -8,10 +8,12 @@
     background: rgb(121, 152, 153);
     height: 50px;
     border-bottom: 2px solid black;
+    width: 100%;
 }
 
+
+
 ul{
-   
    list-style: none;
    float: right;
    margin-right: 10px;
@@ -33,7 +35,9 @@ ul li a{
     text-align: center;
 }
 
-
+.fixmenu{ 
+    position:fixed; 
+}
 
 .num1{
     height: 500px;
