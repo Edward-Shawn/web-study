@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+    background: rgb(121, 152, 153);
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+ul{
+   
+   list-style: none;
+   float: right;
+   margin-right: 10px;
+}
+
+ul li {
+   float: left;
+   line-height: 50px;
+   
+}
+
+ul li a{
+    width: 90px;
+    border: 1px solid red;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+
+
+.num1{
+    height: 500px;
+    background: rgb(93, 148, 127);
+}
+
+.num2{
+    height: 500px;
+    background: rgb(201, 221, 213);
+}
+
+.num3{
+    height: 500px;
+    background: rgb(79, 103, 114);
+}
+
+.num4{
+    height: 500px;
+    background: rgb(174, 181, 185);
+}
+
