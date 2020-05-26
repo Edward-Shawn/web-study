@@ -2,16 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
-body{
+html{
     scroll-behavior: smooth;
 }
-
-.header{
-    display: table;
-    height: 50px;
-    width: 100%;
+body{
+   padding-top: 50px;
 }
+
 
 .menu{
     background: rgba(255, 255, 255, 0.466);
@@ -19,6 +16,8 @@ body{
     border-bottom: 1px solid rgb(0, 0, 0);
     width: 100%;
     z-index: 999;
+    top: 0;
+    position: fixed;
 }
 
 
@@ -45,26 +44,26 @@ ul li a{
     text-align: center;
 }
 
-.fixmenu{ 
-    position:fixed; 
-}
 
-.num1{
+
+
+
+#num1{
     height: 500px;
     background: rgb(93, 148, 127);
 }
 
-.num2{
+#num2{
     height: 500px;
     background: rgb(201, 221, 213);
 }
 
-.num3{
+#num3{
     height: 500px;
     background: rgb(79, 103, 114);
 }
 
-.num4{
+#num4{
     height: 500px;
     background: rgb(174, 181, 185);
 }

@@ -5,38 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="슬라이드스크롤연습.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script>
+    <script>
     
-    $(window).scroll(function(){ 
+      $(window).scroll(function(){ 
 
-    var height = $(document).scrollTop(); //실시간으로 스크롤의 높이를 측정
-     
-    if(height > 0){ 
-      $('.menu').addClass('fixmenu'); 
-    }else if(height == 0){ 
-      $('.menu').removeClass('fixmenu'); 
-    } 
-  });
-</script>
+        var height = $(document).scrollTop(); //실시간으로 스크롤의 높이를 측정
+          log(height);
+        
 
-    <title>Document</title>
+       
+      });
+
+        function log(str){
+        $('#log').text(str);
+}
+      
+    </script>
+
+    <title>슬라이드크롤연습</title>
 </head>
 <body>
-  <div class="header">
-    <div class="menu">
+  
+    <nav class="menu">
         <ul>
-            <li><a href="">one</a></li>
-            <li><a href="">two</a></li>
-            <li><a href="">three</a></li>
-            <li><a href="">four</a></li>
+            <li><a href="#num1">one</a></li>
+            <li><a href="#num2">two</a></li>
+            <li><a href="#num3">three</a></li>
+            <li><a href="#num4">four</a></li>
         </ul>
-    </div>
-  </div>
+    </nav>
+  
 
-    <div class="num1"></div>
-    <div class="num2"></div>
-    <div class="num3"></div>
-    <div class="num4"></div>
+  
+
+    <div id="num1"></div>
+    <div id="num2"></div>
+    <div id="num3"></div>
+    <div id="num4"></div>
   
 
 
