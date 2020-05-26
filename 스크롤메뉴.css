@@ -8,7 +8,8 @@
     height: 50px;
     width: 100%;
     border-bottom: 2px solid black;
-    background: white;
+    background: rgba(255, 255, 255, 0.37);
+    
 }
 ul{
     float: right;
@@ -32,19 +33,20 @@ ul li a{
     position: fixed;
 }
 
-.page1{
+#div1{
     background: rgb(109, 138, 108);
     height: 400px;
+    
 }
-.page2{
+#div2{
     background: rgb(217, 203, 230);
     height: 400px;
 }
-.page3{
+#div3{
     background: rgb(141, 135, 218);
     height: 400px;
 }
-.page4{
+#div4{
     background: blueviolet;
-    height: 400px;
+    height: 600px;
 }

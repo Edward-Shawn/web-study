@@ -11,21 +11,27 @@
 
     <div class="menu">
         <ul>
-            <li><a href="">one</a></li>
-            <li><a href="">two</a></li>
-            <li><a href="">three</a></li>
-            <li><a href="">four</a></li>
+            <li><a  onclick="fnMove('1')">one</a></li>
+            <li><a  onclick="fnMove('2')">two</a></li>
+            <li><a  onclick="fnMove('3')">three</a></li>
+            <li><a  onclick="fnMove('4')">four</a></li>
         </ul>
     </div>
 
 
-    <div class="page1"></div>
-    <div class="page2"></div>
-    <div class="page3"></div>
-    <div class="page4"></div>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
 
     <script>
     
+    function fnMove(seq){
+        var offset = $("#div" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top}, 400);
+    }
+
+
         $(window).scroll(function(){ 
        
            var height = $(document).scrollTop(); //실시간으로 스크롤의 높이를 측정
@@ -36,6 +42,10 @@
              $('.menu').removeClass('fixmenu'); 
            } 
          });
+
+
+
+
     </script>
 
 </body>
