@@ -3,12 +3,22 @@
     padding: 0;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: table;
+    height: 50px;
+    width: 100%;
+}
 
 .menu{
-    background: rgb(121, 152, 153);
+    background: rgba(255, 255, 255, 0.466);
     height: 50px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
     width: 100%;
+    z-index: 999;
 }
 
 
@@ -27,7 +37,7 @@ ul li {
 
 ul li a{
     width: 90px;
-    border: 1px solid red;
+    
     text-transform: uppercase;
     text-decoration: none;
     color: black;
