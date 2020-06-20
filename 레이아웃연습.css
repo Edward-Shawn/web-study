@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.center{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+ul ol{
+    list-style: none;
+}
+
+a{text-decoration: none;}
+
+
+.top_line{
+    background: gray;
+    height: 80px;
+}
+
+header{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+header.scroll{position: fixed; max-width: 1000px; top: 0; z-index: 999;}
+
+header>h1{
+    float: left;
+    color: #fff;
+    line-height: 80px;
+    margin-left: 30px;
+}
+header>.gnb{
+    float: right;
+}
+
+header>.gnb li{
+    float: left;
+}
+header>.gnb li a{line-height: 80px; margin-right: 20px; font-size: 20px; color: #fff; background: rgb(22, 22, 94); padding: 10px 10px;}
+
+
+
+
+.main_img{
+    background: skyblue;
+    width: 100%;
+    height: 500px;
+}
+
+.page1{
+    width: 100%;
+    height: 700px;
+    background: gray;
+}
+
+
+.page1 .page_wrap{
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+    height: 300px;
+    
+}
+.page1 .page_wrap>.site{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+   
+    box-sizing: border-box;
+    padding: 15px;
+}
+.page1 .page_wrap>.info1>div{
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+.page1 .page_wrap>.info2>div{
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+.page1 .page_wrap>.info3>div{
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.page2{
+    height: 800px;
+    width: 100%;
+    background: cornflowerblue;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
