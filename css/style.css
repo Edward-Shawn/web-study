@@ -1,0 +1,52 @@
+/* reset */
+*{margin: 0; padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none; color: rgb(105, 105, 105);}
+
+
+.slideshow{position: relative; width: 100%; height: 500px; background: skyblue; overflow: hidden; }
+.slideshow-slides{ position: absolute; align-items: center;   justify-content: center; width: 100%; height: 100%;}
+.slideshow-slides img{position: absolute; width: 100%; height: 100%;}
+
+
+.slides img:nth-child(1){left: 0;}
+.slides img:nth-child(2){left: 100%;}
+.slides img:nth-child(3){left: 200%;}
+
+
+
+
+
+
+.menu{position: relative; width: 100%; height: 50px; background: rgb(255, 255, 255);} 
+
+
+
+
+.menu i{font-size: 30px; line-height: 50px; cursor: pointer;  float: right; margin-right: 50px; display: none;}
+.gnb{width: 30%; text-align: center; line-height: 48px; float: right; }
+.gnb li{width: 20%;  float: left; border-left: 1px solid #bbb; transition: all 0.4s;}
+.gnb li:nth-child(4){border-right: 1px solid #bbb;}
+
+
+.gnb li a{ font-size: 20px;  text-transform: uppercase;} 
+.gnb li.active{background: rgb(211, 214, 216);}
+.gnb li:hover{background: rgb(204, 203, 203);}
+
+
+.box1{width: 100%; height: 500px; background: rgb(207, 221, 213);}
+.box2{width: 100%; height: 500px; background: rgb(178, 218, 228);}
+.box3{width: 100%; height: 1000px; background: rgb(144, 144, 201);}
+
+section>p{font-size: 30px; text-transform: uppercase; font-weight: bold; text-align: center; line-height: 500px;}
+
+
+
+@media screen and (max-width: 700px) { 
+  
+    .gnb{width: 100%; background: rgb(230, 246, 250); display: none;}
+    .gnb li{width: 100%; height: auto; float: none;}
+     /*자기부모 높이 만금 내려감 */
+    .menu i{display: block;}
+}
+
