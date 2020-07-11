@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 70px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: rgba(71, 130, 240, 0.637);
+    transition: 0.5s;
+}
+.nav-up{
+    top: -70px;
+}
+
+
+section{
+    background: rgb(129, 231, 245);
+    height: 1000px;
+}
